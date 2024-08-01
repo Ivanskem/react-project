@@ -1,0 +1,43 @@
+.main-page {
+    text-align: center;
+    background-color: #0b0e13;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  header .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .nav-item {
+    font-size: 1.5em;
+  }
+  
+  main .intro {
+    margin-top: 100px;
+  }
+  
+  .intro h1 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+  }
+  
+  .intro p {
+    font-size: 1.5em;
+  }
+  
+  .design-info {
+    margin-bottom: 100px;
+  }
+  
+  .design-info h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  

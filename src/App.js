@@ -1,0 +1,19 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/MainPage';
+import Panel from './components/Panel';
+import Chat from './components/Chat';
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/panel" element={<Panel />} />
+        <Route path="/chat" element={<Chat />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
